@@ -9,7 +9,7 @@ So, Yoga as a system needs much more involvement than any other thing that we do
 
 We have used Deep Learning and NLP techniques to create a model that would take four words from the user as input and suggest to him top-seven asanas that match the benefit words. We first began by formulating our dataset. We created a dataset of about 329 asanas, including the benefits, contraindications, description, and procedure for each asana. Our biggest challenge was to search for correct and accurate information about each asana, so we looked up various Yoga books and collected our information. We then implemented the concept of word vectorization which is a classic approach of converting input data from text into vectors of real numbers. This technique is widely used in Natural Language Processing. A neural network will take the embeddings of the word as input and will predict the asanas in decreasing order of their probability of matching. Our model is unique as no such implementation like this has happened before. We aim to provide the user with the best asana recommendation according to his input which would be very handy for his health-related problem.<br>
 
-## *Acknowledgement*<br>
+## **Acknowledgement**<br>
 I am profoundly grateful to **Dr. Veena Bansal**, Department of Industrial and Management Engineering for her expert guidance and constant encouragement throughout the Summer Term. I would also like to thank her for giving me and my project partner this golden opportunity to do this project on the topic Yoga Asana Recommendation Model.
 
 It helped me do much research in the related Machine Learning and Deep learning field and also taught me the importance of Yoga and exercise in one's life. 
