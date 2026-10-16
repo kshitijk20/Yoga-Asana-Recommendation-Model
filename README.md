@@ -1,6 +1,6 @@
 # Yoga Asana Recommendation System (NLP)
 
-An NLP-based recommendation system that suggests the most relevant yoga asanas for a user's health concerns. The user enters a few words describing their problem or goal (for example *back pain*, *stress*, *digestion*, *flexibility*), and the model returns the **top 7 asanas**, ranked by how well their benefits match the input.
+An NLP-based recommendation system that suggests the most relevant yoga asanas for a user's health concerns. The user enters a few words describing their problem or goal (for example *back pain*, *stress*, *digestion*, *flexibility*), and the model returns the **top 3 asanas**, ranked by how well their benefits match the input.
 
 *Summer project (May 2022 – Jul 2022) under the supervision of **Prof. Veena Bansal**, Department of Industrial and Management Engineering, IIT Kanpur.*
 
@@ -16,7 +16,7 @@ Yoga is widely recognised for its physical and mental health benefits, from lowe
 No ready-made structured dataset of yoga asanas existed, so we built one.
 - Scraped asana information from online yoga resources using Python-based scraping scripts.
 - Supplemented and cross-verified the scraped data against established yoga books to ensure accuracy.
-- Cleaned and standardised everything into a structured dataset of **329 asanas**, each with four fields: **benefits**, **contraindications**, **description**, and **procedure**.
+- Cleaned and standardised everything into a structured dataset of **1000+ asanas**, each with four fields: **benefits**, **contraindications**, **description**, and **procedure**.
 
 ### 2. Text preprocessing
 - Word tokenization and lowercasing.
@@ -28,7 +28,7 @@ No ready-made structured dataset of yoga asanas existed, so we built one.
 
 ### 4. Recommendation model
 - A feed-forward **neural network** takes the embeddings of the user's input words as context.
-- It outputs a probability for each asana, and the system returns the **top 7** in decreasing order of match probability.
+- It outputs a probability for each asana, and the system returns the **top 3** in decreasing order of match probability.
 
 ## Tech Stack
 
@@ -44,7 +44,7 @@ No ready-made structured dataset of yoga asanas existed, so we built one.
 
 ```
 Input:  back pain, posture, flexibility, stress
-Output: Top 7 recommended asanas, ranked by match probability
+Output: Top 3 recommended asanas, ranked by match probability
 ```
 
 ## Future Work
@@ -53,4 +53,4 @@ Output: Top 7 recommended asanas, ranked by match probability
 - Wrap the model in a simple web interface or REST API.
 
 ## Acknowledgements
-I am grateful to **Prof. Veena Bansal**, Department of Industrial and Management Engineering, IIT Kanpur, for her guidance and encouragement throughout the project, and to my project partner **Richa Prakash Sachan** for her collaboration.
+I am grateful to **Prof. Veena Bansal**, Department of Industrial and Management Engineering, IIT Kanpur, for her guidance and encouragement throughout the project.
