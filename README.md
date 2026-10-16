@@ -13,5 +13,3 @@ We have used Deep Learning and NLP techniques to create a model that would take 
 I am profoundly grateful to **Dr. Veena Bansal**, Department of Industrial and Management Engineering for her expert guidance and constant encouragement throughout the Summer Term. I would also like to thank her for giving me and my project partner this golden opportunity to do this project on the topic Yoga Asana Recommendation Model.
 
 It helped me do much research in the related Machine Learning and Deep learning field and also taught me the importance of Yoga and exercise in one's life. 
-
-At last, I wanted to thank my project partner **Ms. Richa Prakash Sachan** to work with me on the assigned project and all other group members who helped me directly or indirectly during this course of work.
